@@ -1,0 +1,54 @@
+
+Scenario Outline: Test Loginpage Funtionality of Website          # src/test/java/Feature/GermanyIsCalling.feature:11
+  Given User is on Loginpage of Website                           # StepDefination.GICLoginPageTest.user_is_on_loginpage_of_website()
+  When User Enter "gaikwadsachin.989@gmail.com" and "Sachin@1234" # StepDefination.GICLoginPageTest.user_enter_and(java.lang.String,java.lang.String)
+  And User Click on Login button                                  # StepDefination.GICLoginPageTest.user_click_on_login_button()
+  Then User is naviagated to the HomePage                         # StepDefination.GICLoginPageTest.user_is_naviagated_to_the_home_page()
+
+Scenario Outline: Test Loginpage Funtionality of Website # src/test/java/Feature/GermanyIsCalling.feature:12
+  Given User is on Loginpage of Website                  # StepDefination.GICLoginPageTest.user_is_on_loginpage_of_website()
+  When User Enter "" and ""                              # StepDefination.GICLoginPageTest.user_enter_and(java.lang.String,java.lang.String)
+  And User Click on Login button                         # StepDefination.GICLoginPageTest.user_click_on_login_button()
+  Then User is naviagated to the HomePage                # StepDefination.GICLoginPageTest.user_is_naviagated_to_the_home_page()
+      org.opentest4j.AssertionFailedError: expected: <Login | Germany Is Calling> but was: <Upload your CV | Germany Is Calling>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at StepDefination.GICLoginPageTest.user_is_naviagated_to_the_home_page(GICLoginPageTest.java:39)
+	at ✽.User is naviagated to the HomePage(file:///D:/WorkSpace/GICTests.zip_expanded/BBD_Framework_GermanyIsCalling/src/test/java/Feature/GermanyIsCalling.feature:7)
+
+
+Scenario Outline: Test Loginpage Funtionality of Website  # src/test/java/Feature/GermanyIsCalling.feature:13
+  Given User is on Loginpage of Website                   # StepDefination.GICLoginPageTest.user_is_on_loginpage_of_website()
+  When User Enter "sachingaikwad@gmail.com" and "sg@1234" # StepDefination.GICLoginPageTest.user_enter_and(java.lang.String,java.lang.String)
+  And User Click on Login button                          # StepDefination.GICLoginPageTest.user_click_on_login_button()
+  Then User is naviagated to the HomePage                 # StepDefination.GICLoginPageTest.user_is_naviagated_to_the_home_page()
+      org.opentest4j.AssertionFailedError: expected: <Login | Germany Is Calling> but was: <Upload your CV | Germany Is Calling>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at StepDefination.GICLoginPageTest.user_is_naviagated_to_the_home_page(GICLoginPageTest.java:39)
+	at ✽.User is naviagated to the HomePage(file:///D:/WorkSpace/GICTests.zip_expanded/BBD_Framework_GermanyIsCalling/src/test/java/Feature/GermanyIsCalling.feature:7)
+
+
+Scenario Outline: Test Loginpage Funtionality of Website # src/test/java/Feature/GermanyIsCalling.feature:14
+  Given User is on Loginpage of Website                  # StepDefination.GICLoginPageTest.user_is_on_loginpage_of_website()
+  When User Enter "%^-" and "_^%"                        # StepDefination.GICLoginPageTest.user_enter_and(java.lang.String,java.lang.String)
+  And User Click on Login button                         # StepDefination.GICLoginPageTest.user_click_on_login_button()
+  Then User is naviagated to the HomePage                # StepDefination.GICLoginPageTest.user_is_naviagated_to_the_home_page()
+      org.opentest4j.AssertionFailedError: expected: <Login | Germany Is Calling> but was: <Upload your CV | Germany Is Calling>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at StepDefination.GICLoginPageTest.user_is_naviagated_to_the_home_page(GICLoginPageTest.java:39)
+	at ✽.User is naviagated to the HomePage(file:///D:/WorkSpace/GICTests.zip_expanded/BBD_Framework_GermanyIsCalling/src/test/java/Feature/GermanyIsCalling.feature:7)
+
